@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("The End", "BloodTheme")
+local scripts = Window:NewTab("Scripts")
+local Section = scripts:NewSection("Scripts")
+Section:NewButton("Bedwars", "This Is A Script For BedWars", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
